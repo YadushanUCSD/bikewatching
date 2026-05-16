@@ -1,0 +1,29 @@
+body {
+    font: 100%/1.5 system-ui, sans-serif;
+    display: flex;
+    flex-flow: column;
+    max-width: 80em;
+    min-height: 100vh;
+    box-sizing: border-box;
+    margin: auto;
+    padding: 1em;
+  }
+
+  .time-filter {
+    display: flex;
+    flex-direction: column; /* Puts label text, slider, and time display on separate rows */
+    gap: 0.5em;
+  }
+  
+  /* Force the time display container to sit on its own block line */
+  #selected-time {
+    display: block;
+    font-weight: bold;
+  }
+  
+  /* Style the placeholder text differently to show it is a distinct state */
+  .any-time {
+    color: #666;
+    font-style: italic;
+    font-weight: normal;
+  }
