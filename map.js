@@ -94,7 +94,7 @@ map.on('load', async () => {
             'line-opacity': 0.6       // Slightly less transparent
           }
       });
-      let jsonData;
+      // let jsonData;
         try {
             const jsonurl = 'https://dsc106.com/labs/lab07/data/bluebikes-stations.json';
             const csvurl = 'https://dsc106.com/labs/lab07/data/bluebikes-traffic-2024-03.csv';
